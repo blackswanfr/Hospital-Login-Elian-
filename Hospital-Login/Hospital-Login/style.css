@@ -1,0 +1,135 @@
+html {
+  overflow-x: hidden;
+  overflow-y: visible;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: visible;
+  width: 100%;
+  height: 100%;
+  background-image: url(images/hospital-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+}
+
+#Body {
+  position: relative;
+  width: 600px;
+  height: 850px;
+  padding: 5px 50px;
+  margin: auto;
+  margin-top: 8px;
+  text-align: center;
+  font-family: "Prompt", sans-serif;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 7px;
+}
+
+img {
+  width: 200px;
+  border: 1px groove black;
+  border-radius: 12px;
+  padding: 15px 20px;
+  margin: 30px 25px;
+  margin-bottom: 25px;
+}
+
+img:hover {
+  cursor: pointer;
+  width: 201px;
+  border: 1px solid red;
+}
+
+#InputInfo {
+  background-color: lightblue;
+  border: 2px groove darkblue;
+  border-radius: 30px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  margin-top: 40px;
+}
+
+button {
+  font-size: 18px;
+  padding: 9px 25px;
+  margin-top: 4px;
+  background: darkblue;
+  color: white;
+  cursor: pointer;
+  border: 0.5px solid black;
+  border-radius: 8px;
+}
+
+button:hover {
+  opacity: 0.5;
+  font-size: 18px;
+}
+
+button:active {
+  font-size: 17px;
+  padding: 9px 24px;
+}
+
+#Forgot {
+  font-size: 14px;
+  font-style: italic;
+  text-decoration: none;
+  padding: 5px 0px;
+}
+
+#ClickHere {
+  text-decoration: none;
+  color: darkblue;
+}
+
+.Grey {
+  color: gray;
+  font-weight: bold;
+}
+
+input {
+  color: black;
+  border: 1px groove black;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: -5px;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  animation-duration: 0.2s;
+}
+
+input:hover {
+  color: white;
+  background-color: #2b6eb1;
+  animation-duration: 0.2s;
+}
+
+#Notice {
+  font-variant: small-caps;
+  margin-top: 7px;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+.InputHolder {
+  font-size: 13px;
+  letter-spacing: 3px;
+}
+
+#Holder1 {
+  font-size: 15px;
+}
+
+#Holder2 {
+  font-size: 15px;
+}
+
+h4 {
+  margin-top: 20px;
+  font-size: 18px;
+}
