@@ -48,6 +48,7 @@ img:hover {
   transition: all 0.5s;
   transform: rotate(-4deg);
   transition-timing-function: cubic-bezier(0.36, 0.36, 0.17, 1.78);
+  box-shadow: 4px 0px 8px 1px rgba(0, 0, 0, 0.4);
 }
 
 #InputInfo {
